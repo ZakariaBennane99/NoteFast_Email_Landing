@@ -13,15 +13,19 @@ function keyup(e) {
 
 const clicked = document.querySelector('button').addEventListener('click', () => {
 
-    var templateParams = {
-        user_email: inputTextValue
-    };
-
-    emailjs.send('service_3gdqphv', 'template_zl6z81n', templateParams)
-    .then(function(response) {
-        alert('Thank you! We will email you once we have the product ready')
-       console.log('SUCCESS!', response.status, response.text);
-    }, function(error) {
-       console.log('FAILED...', error);
-    })
+    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(inputTextValue)) {
+        var templateParams = {
+            user_email: inputTextValue
+        }
+        emailjs.send('service_3gdqphv', 'template_zl6z81n', templateParams)
+        .then(function(response) {
+            alert('Thank you! We will email you once we have the product ready')
+           console.log('SUCCESS!', response.status, response.text);
+        }, function(error) {
+           console.log('FAILED...', error);
+        })
+    } else {
+        alert('Please enter a valid email address.')
+    }
+  
 })
