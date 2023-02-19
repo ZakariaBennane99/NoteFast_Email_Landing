@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300display=swap" rel="stylesheet" />
+</head>
+<body>
+	<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+		 viewBox="0 0 386 80" enable-background="new 0 0 386 80" xml:space="preserve">
+	<text transform="matrix(1 0 0 1 75.7773 59.7324)"><tspan x="0" y="0" fill="#1465E7" font-family="Ubuntu" font-weight="500" font-size="56.8865">Swift</tspan><tspan x="137.3" y="0" fill="#1465E7" font-family="Ubuntu" font-weight="300" font-size="56.8865">Notion</tspan></text>
+	<g>
+		<g>
+			<path fill="#1465E7" d="M59.9,71.1L59.9,71.1c-3.1,0-5.6-2.5-5.6-5.6l0-45.5L8.9,20.1c-3.1,0-5.6-2.5-5.6-5.6v0
+				C3.3,11.5,5.8,9,8.8,9h56.6v56.6C65.4,68.6,62.9,71.1,59.9,71.1z"/>
+			<path fill="#1465E7" d="M37.9,70.9L37.9,70.9c-3.1,0-5.6-2.5-5.6-5.6l0-17.9c0-3.1-2.5-5.6-5.6-5.6L8.9,41.9
+				c-3.1,0-5.6-2.5-5.6-5.6v0c0-3.1,2.5-5.6,5.6-5.6h34.6v34.6C43.5,68.4,41,70.9,37.9,70.9z"/>
+			<path fill="#1465E7" d="M31.3,34.9l-9.8,9.9L4.9,61.3c-2.2,2.2-2.2,5.7,0,7.9l0,0c2.2,2.2,5.7,2.2,7.9,0L30,51.9l0,0l9.6-9.6
+				c1.7-2.2,1.6-5.3-0.4-7.3l0,0C37,32.7,33.4,32.7,31.3,34.9z"/>
+		</g>
+	</g>
+</svg>
+</body>
+</html>
